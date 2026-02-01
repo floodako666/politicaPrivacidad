@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad - RouteNavEMT</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #0066CC;
+            border-bottom: 3px solid #0066CC;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #333;
+            margin-top: 30px;
+        }
+        p {
+            color: #555;
+            margin: 15px 0;
+        }
+        .highlight {
+            background-color: #e3f2fd;
+            padding: 15px;
+            border-left: 4px solid #0066CC;
+            margin: 20px 0;
+        }
+        .date {
+            color: #888;
+            font-size: 0.9em;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Política de Privacidad</h1>
+        <p class="date"><strong>Última actualización:</strong> <span id="fecha"></span></p>
+        
+        <h2>1. Información General</h2>
+        <p>
+            <strong>RouteNavEMT</strong> ("nosotros", "nuestra app") es una aplicación de navegación GPS 
+            desarrollada para proporcionar servicios de navegación y seguimiento de rutas GPX. 
+            Esta política de privacidad explica cómo manejamos la información en nuestra aplicación.
+        </p>
+
+        <div class="highlight">
+            <strong>IMPORTANTE:</strong> RouteNavEMT <strong>NO recopila, almacena ni transmite ningún dato personal del usuario</strong>. 
+            Toda la información permanece exclusivamente en su dispositivo.
+        </div>
+
+        <h2>2. Datos que NO Recopilamos</h2>
+        <p>RouteNavEMT <strong>NO recopila, almacena ni transmite</strong> los siguientes tipos de datos:</p>
+        <ul>
+            <li>❌ Información personal (nombre, email, teléfono, etc.)</li>
+            <li>❌ Datos de ubicación GPS (no se envían a servidores externos)</li>
+            <li>❌ Archivos GPX importados por el usuario</li>
+            <li>❌ Configuraciones y preferencias de la aplicación</li>
+            <li>❌ Información de uso o analíticas</li>
+            <li>❌ Datos de identificación del dispositivo</li>
+        </ul>
+
+        <h2>3. Datos que se Almacenan Localmente</h2>
+        <p>
+            La aplicación almacena la siguiente información <strong>únicamente en su dispositivo</strong> 
+            y <strong>nunca se transmite a servidores externos</strong>:
+        </p>
+        <ul>
+            <li>✅ <strong>Configuraciones de la app:</strong> Preferencias de visualización del mapa, 
+                configuración de voz, distancia de waypoints, etc. (almacenadas localmente mediante AsyncStorage)</li>
+            <li>✅ <strong>Archivos GPX:</strong> Rutas importadas por el usuario se almacenan localmente 
+                en el dispositivo</li>
+            <li>✅ <strong>Datos de ubicación GPS:</strong> Se utilizan únicamente en tiempo real para 
+                mostrar la posición en el mapa. No se almacenan ni se transmiten</li>
+        </ul>
+
+        <h2>4. Permisos de la Aplicación</h2>
+        <p>RouteNavEMT solicita los siguientes permisos y explica su uso:</p>
+        <ul>
+            <li><strong>📍 Ubicación (GPS):</strong> 
+                Necesario para mostrar tu posición en el mapa y seguir rutas. 
+                La ubicación se utiliza <strong>solo localmente</strong> y <strong>nunca se transmite</strong> 
+                a servidores externos.</li>
+            <li><strong>📁 Almacenamiento:</strong> 
+                Necesario para importar y gestionar archivos GPX desde tu dispositivo. 
+                Los archivos permanecen <strong>solo en tu dispositivo</strong>.</li>
+        </ul>
+
+        <h2>5. Servicios de Terceros</h2>
+        <p>
+            RouteNavEMT utiliza los siguientes servicios de terceros:
+        </p>
+        <ul>
+            <li><strong>Google Maps SDK:</strong> 
+                Se utiliza únicamente para mostrar mapas y rutas. 
+                Google Maps puede recopilar datos según su propia política de privacidad. 
+                Para más información, consulta: 
+                <a href="https://policies.google.com/privacy" target="_blank">Política de Privacidad de Google</a></li>
+        </ul>
+        <p>
+            <strong>Nota:</strong> No compartimos datos del usuario con Google Maps. 
+            Solo se utiliza para renderizar mapas en la pantalla.
+        </p>
+
+        <h2>6. Sincronización con Google Drive</h2>
+        <p>
+            Si utilizas la función de sincronización con Google Drive (si está disponible), 
+            los archivos GPX se almacenan en tu cuenta de Google Drive personal. 
+            RouteNavEMT <strong>no tiene acceso</strong> a estos archivos más allá de lo necesario 
+            para la sincronización, y se rige por la 
+            <a href="https://policies.google.com/privacy" target="_blank">Política de Privacidad de Google</a>.
+        </p>
+
+        <h2>7. Seguridad</h2>
+        <p>
+            Todos los datos almacenados localmente en tu dispositivo están protegidos por las 
+            medidas de seguridad estándar del sistema operativo. No utilizamos servidores propios 
+            ni transmitimos datos, por lo que no hay riesgo de filtración de datos a través de 
+            nuestros sistemas.
+        </p>
+
+        <h2>8. Cambios en esta Política</h2>
+        <p>
+            Podemos actualizar esta política de privacidad ocasionalmente. La fecha de la última 
+            actualización se muestra al inicio de este documento. Te recomendamos revisar esta 
+            política periódicamente.
+        </p>
+
+        <h2>9. Contacto</h2>
+        <p>
+            Si tienes preguntas sobre esta política de privacidad, puedes contactarnos a través 
+            de la información de contacto disponible en Google Play Console.
+        </p>
+
+        <h2>10. Consentimiento</h2>
+        <p>
+            Al usar RouteNavEMT, aceptas esta política de privacidad. Si no estás de acuerdo 
+            con esta política, por favor no uses la aplicación.
+        </p>
+
+        <div class="highlight">
+            <p><strong>Resumen:</strong></p>
+            <p>
+                RouteNavEMT es una aplicación que funciona completamente offline y localmente. 
+                No recopilamos datos personales, no tenemos servidores, y toda la información 
+                permanece en tu dispositivo. Tu privacidad está completamente protegida.
+            </p>
+        </div>
+    </div>
+
+    <script>
+        // Establecer fecha automáticamente
+        document.getElementById('fecha').textContent = new Date().toLocaleDateString('es-ES', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        });
+    </script>
+</body>
+</html>
