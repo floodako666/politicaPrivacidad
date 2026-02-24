@@ -52,42 +52,66 @@
         
         <h2>1. Información General</h2>
         <p>
-            <strong>RouteNavEMT</strong> ("nosotros", "nuestra app") es una aplicación de navegación GPS 
-            desarrollada para proporcionar servicios de navegación y seguimiento de rutas GPX. 
+            <strong>RouteNavEMT</strong> Nuestra app es una aplicación de navegación GPS 
+            desarrollada para conductores y empleados, con registro controlado por código de invitación. 
             Esta política de privacidad explica cómo manejamos la información en nuestra aplicación.
         </p>
 
-        <div class="highlight">
-            <strong>IMPORTANTE:</strong> RouteNavEMT <strong>NO recopila, almacena ni transmite ningún dato personal del usuario</strong>. 
-            Toda la información permanece exclusivamente en su dispositivo.
-        </div>
-
-        <h2>2. Datos que NO Recopilamos</h2>
-        <p>RouteNavEMT <strong>NO recopila, almacena ni transmite</strong> los siguientes tipos de datos:</p>
-        <ul>
-            <li>❌ Información personal (nombre, email, teléfono, etc.)</li>
-            <li>❌ Datos de ubicación GPS (no se envían a servidores externos)</li>
-            <li>❌ Archivos GPX importados por el usuario</li>
-            <li>❌ Configuraciones y preferencias de la aplicación</li>
-            <li>❌ Información de uso o analíticas</li>
-            <li>❌ Datos de identificación del dispositivo</li>
-        </ul>
-
-        <h2>3. Datos que se Almacenan Localmente</h2>
+        <h2>2. Datos que Recopilamos para Registro e Inicio de Sesión</h2>
         <p>
-            La aplicación almacena la siguiente información <strong>únicamente en su dispositivo</strong> 
-            y <strong>nunca se transmite a servidores externos</strong>:
+            Para poder usar la aplicación es necesario registrarse una vez (con un código de invitación) 
+            o iniciar sesión si ya tienes cuenta. En ese contexto recopilamos y tratamos los siguientes datos:
         </p>
         <ul>
+            <li><strong>Al registrarte:</strong> código de invitación, número de empleado, dirección de correo electrónico y teléfono (9 dígitos, España). 
+                Estos datos se envían a nuestros servidores (infraestructura en la nube) y se almacenan en una base de datos 
+                para crear tu cuenta verificada y controlar el acceso a la app.</li>
+            <li><strong>Al iniciar sesión:</strong> dirección de correo electrónico y número de empleado. 
+                Se envían a nuestros servidores únicamente para comprobar tu identidad y permitirte el acceso.</li>
+        </ul>
+        <p>
+            <strong>Finalidad:</strong> Gestión de acceso a la aplicación (registro con código de invitación, verificación de identidad, inicio de sesión). 
+            No utilizamos estos datos para marketing ni los cedemos a terceros con fines comerciales.
+        </p>
+        <p>
+            <strong>Base legal:</strong> Tu consentimiento al aceptar esta política y al enviar el formulario de registro o de inicio de sesión.
+        </p>
+        <p>
+            <strong>Conservación:</strong> Los datos de tu cuenta se conservan mientras mantengas acceso a la aplicación y durante el tiempo necesario para cumplir obligaciones legales. 
+            Puedes solicitar la baja o el ejercicio de tus derechos contactando con nosotros (ver sección Contacto).
+        </p>
+
+        <div class="highlight">
+            <strong>Resumen registro/login:</strong> Solo recopilamos el mínimo necesario (email, número de empleado, teléfono y código de invitación en el registro) 
+            para dar acceso controlado a la app. Estos datos se almacenan en nuestros sistemas de forma segura y no se usan para otro fin.
+        </div>
+
+        <h2>3. Datos que se Almacenan Solo en tu Dispositivo</h2>
+        <p>
+            La aplicación almacena además la siguiente información <strong>únicamente en tu dispositivo</strong> 
+            (no se envía a servidores, salvo lo indicado en la sección de registro/login):
+        </p>
+        <ul>
+            <li>✅ <strong>Estado de sesión:</strong> Un identificador interno para saber que ya iniciaste sesión, 
+                de modo que no tengas que volver a identificarte en cada apertura de la app.</li>
             <li>✅ <strong>Configuraciones de la app:</strong> Preferencias de visualización del mapa, 
                 configuración de voz, distancia de waypoints, etc. (almacenadas localmente mediante AsyncStorage)</li>
             <li>✅ <strong>Archivos GPX:</strong> Rutas importadas por el usuario se almacenan localmente 
                 en el dispositivo</li>
             <li>✅ <strong>Datos de ubicación GPS:</strong> Se utilizan únicamente en tiempo real para 
-                mostrar la posición en el mapa. No se almacenan ni se transmiten</li>
+                mostrar la posición en el mapa. No se almacenan ni se transmiten a nuestros servidores</li>
         </ul>
 
-        <h2>4. Permisos de la Aplicación</h2>
+        <h2>4. Datos que NO Recopilamos para Otros Fines</h2>
+        <p>RouteNavEMT <strong>no recopila</strong> para fines distintos del registro e inicio de sesión:</p>
+        <ul>
+            <li>❌ Nombre completo ni datos de perfil adicionales (salvo los indicados en el registro)</li>
+            <li>❌ Ubicación GPS para almacenamiento en servidor (solo se usa en el dispositivo)</li>
+            <li>❌ Archivos GPX para enviarlos a nuestros servidores</li>
+            <li>❌ Información de uso o analíticas con fines comerciales</li>
+        </ul>
+
+        <h2>5. Permisos de la Aplicación</h2>
         <p>RouteNavEMT solicita los siguientes permisos y explica su uso:</p>
         <ul>
             <li><strong>📍 Ubicación (GPS):</strong> 
@@ -99,7 +123,7 @@
                 Los archivos permanecen <strong>solo en tu dispositivo</strong>.</li>
         </ul>
 
-        <h2>5. Servicios de Terceros</h2>
+        <h2>6. Servicios de Terceros</h2>
         <p>
             RouteNavEMT utiliza los siguientes servicios de terceros:
         </p>
@@ -115,7 +139,7 @@
             Solo se utiliza para renderizar mapas en la pantalla.
         </p>
 
-        <h2>6. Sincronización con Google Drive</h2>
+        <h2>7. Sincronización con Google Drive</h2>
         <p>
             Si utilizas la función de sincronización con Google Drive (si está disponible), 
             los archivos GPX se almacenan en tu cuenta de Google Drive personal. 
@@ -124,28 +148,28 @@
             <a href="https://policies.google.com/privacy" target="_blank">Política de Privacidad de Google</a>.
         </p>
 
-        <h2>7. Seguridad</h2>
+        <h2>8. Seguridad</h2>
         <p>
-            Todos los datos almacenados localmente en tu dispositivo están protegidos por las 
-            medidas de seguridad estándar del sistema operativo. No utilizamos servidores propios 
-            ni transmitimos datos, por lo que no hay riesgo de filtración de datos a través de 
-            nuestros sistemas.
+            Los datos de registro e inicio de sesión se transmiten por conexión segura (HTTPS) y se almacenan 
+            en una base de datos con medidas de seguridad adecuadas. Los datos almacenados solo en tu dispositivo 
+            están protegidos por las medidas del sistema operativo.
         </p>
 
-        <h2>8. Cambios en esta Política</h2>
+        <h2>9. Cambios en esta Política</h2>
         <p>
             Podemos actualizar esta política de privacidad ocasionalmente. La fecha de la última 
             actualización se muestra al inicio de este documento. Te recomendamos revisar esta 
             política periódicamente.
         </p>
 
-        <h2>9. Contacto</h2>
+        <h2>10. Contacto y Derechos</h2>
         <p>
-            Si tienes preguntas sobre esta política de privacidad, puedes contactarnos a través 
-            de la información de contacto disponible en Google Play Console.
+            Si tienes preguntas sobre esta política de privacidad o quieres ejercer tus derechos (acceso, rectificación, 
+            supresión, limitación del tratamiento, portabilidad u oposición), puedes contactarnos a través 
+            de la información de contacto disponible en Google Play Console o en la propia aplicación.
         </p>
 
-        <h2>10. Consentimiento</h2>
+        <h2>11. Consentimiento</h2>
         <p>
             Al usar RouteNavEMT, aceptas esta política de privacidad. Si no estás de acuerdo 
             con esta política, por favor no uses la aplicación.
@@ -154,9 +178,10 @@
         <div class="highlight">
             <p><strong>Resumen:</strong></p>
             <p>
-                RouteNavEMT es una aplicación que funciona completamente offline y localmente. 
-                No recopilamos datos personales, no tenemos servidores, y toda la información 
-                permanece en tu dispositivo. Tu privacidad está completamente protegida.
+                RouteNavEMT recopila solo los datos necesarios para el registro y el inicio de sesión (código de invitación, 
+                número de empleado, email y teléfono en el registro; email y número de empleado en el login). 
+                El resto de la información (configuraciones, GPX, ubicación en tiempo real) permanece en tu dispositivo. 
+                No utilizamos tus datos para marketing ni los cedemos a terceros con fines comerciales.
             </p>
         </div>
     </div>
